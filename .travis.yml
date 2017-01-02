@@ -3,6 +3,8 @@ node_js:
 - '6'
 deploy:
   provider: heroku
-  api_key: 14f618c6-82a8-4902-8574-b8db09cb989e
+  api_key:
+    secure: rWA3peTuQINMM/sswfXsD5CGCb0K7TtYDZLMpbaSmNVafPSYcrBJekoK85kqntnnIYN706zUeBb0Tqcg4XohcJ4JHiMn/yFqmThiLqSdWq3yL5MhuQV0Hg3ShD7iSUCxq8tMOG9JOQCExlyV/n/rWd6HOF2jYe8yy4CpddK5VtgKW4f2N/ofLDBlGKYqXLFSR79mymnF/7itBbVZ0IBR2rI5m+ZQgtesQy2i6k0dPwvMDi2IyopbJOnVjDkAxPVc0hE3DZFKaAaa8gDnZamq7+iGo3gOvnojwR9HSGhFLrTHIfu0TnbZS4+NwdRfMoMNeNe+jGPnRNo7kmq1gMKJGw2mTJwc9LatpbR0kDMainUSjp5JQDmb/lvD03NyK6wQbc+HLzRMboGVlwVFhPv26o57D6fYUmgFadu/54uTMFx5D5Lwoc1uT7/K4gqOPgc0cQwJh+xPxxTzR7HM9ug7YpCdexmmkDHsUa5eZyrJQIv7kYMyV2mOzsmnA/KvHYtBi/aAb7HCG5+8R0UhFn/Y+AAnyaaja1PtkWkMEh8RsCDZbaafhA2nzttZ9Knd8sYuNeNSqu5w04Z2Rrk5u9zjYgE0pit6RHMpYxH3HHa8Fa6pBVRTeGh7lUn0nszjZWu4/9+pHABGs0hd1OyAtQ+/n/+4xJyNWuaoSovOGLzs3E8=
+  app: evening-crag-24581
   on:
     repo: steve2482/node-shopping-list-integration-tests-5.3
